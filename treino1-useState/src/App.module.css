@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25rem;
+    width: 10rem;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.container p {
+    font-size: 2rem;
+}
+
+.header strong{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 2rem;
+}
+
+.container button {
+    background: none;
+    border: 2px solid blue;
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
